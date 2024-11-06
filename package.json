@@ -1,0 +1,13 @@
+{
+  "name": "bluefin-grid-trading-bot",
+  "version": "1.0.0",
+  "description": "Grid trading bot for Bluefin using wallet authentication",
+  "main": "gridTrading.js",
+  "dependencies": {
+    "@bluefin-exchange/bluefin-v2-client": "^2.0.0",
+    "ethers": "^5.7.2"
+  },
+  "scripts": {
+    "start": "node gridTrading.js"
+  }
+}
